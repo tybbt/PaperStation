@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D722A7820CC1CDC00F03658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722A7720CC1CDC00F03658 /* AppDelegate.m */; };
+		9D722A7E20CC1CDC00F03658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D722A7C20CC1CDC00F03658 /* Main.storyboard */; };
+		9D722A8020CC1CDC00F03658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D722A7F20CC1CDC00F03658 /* Assets.xcassets */; };
+		9D722A8320CC1CDC00F03658 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D722A8120CC1CDC00F03658 /* LaunchScreen.storyboard */; };
+		9D722A8620CC1CDC00F03658 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722A8520CC1CDC00F03658 /* main.m */; };
+		9D722AB720CC1E6600F03658 /* HSFolderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722A8E20CC1E6500F03658 /* HSFolderCell.m */; };
+		9D722AB820CC1E6600F03658 /* HSRotatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722A9020CC1E6500F03658 /* HSRotatedView.m */; };
+		9D722AB920CC1E6600F03658 /* UIView+SnapShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722A9220CC1E6500F03658 /* UIView+SnapShot.m */; };
+		9D722ABA20CC1E6600F03658 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722A9620CC1E6600F03658 /* CustomTabBar.m */; };
+		9D722ABB20CC1E6600F03658 /* MenuTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722A9820CC1E6600F03658 /* MenuTabBarController.m */; };
+		9D722ABC20CC1E6600F03658 /* DraftVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722A9B20CC1E6600F03658 /* DraftVC.m */; };
+		9D722ABD20CC1E6600F03658 /* GetPaperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722A9D20CC1E6600F03658 /* GetPaperVC.m */; };
+		9D722ABE20CC1E6600F03658 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722A9F20CC1E6600F03658 /* MineViewController.m */; };
+		9D722ABF20CC1E6600F03658 /* PaperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AA120CC1E6600F03658 /* PaperViewController.m */; };
+		9D722AC020CC1E6600F03658 /* PostPaperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AA320CC1E6600F03658 /* PostPaperVC.m */; };
+		9D722AC120CC1E6600F03658 /* WritePaperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AA520CC1E6600F03658 /* WritePaperVC.m */; };
+		9D722AC220CC1E6600F03658 /* AnimateAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AA920CC1E6600F03658 /* AnimateAuthor.m */; };
+		9D722AC420CC1E6600F03658 /* PageCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AAD20CC1E6600F03658 /* PageCollectionCell.m */; };
+		9D722AC520CC1E6600F03658 /* PageTopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AAF20CC1E6600F03658 /* PageTopBarView.m */; };
+		9D722AC620CC1E6600F03658 /* PaperContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AB220CC1E6600F03658 /* PaperContentView.m */; };
+		9D722AC720CC1E6600F03658 /* PaperFoldingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AB420CC1E6600F03658 /* PaperFoldingCell.m */; };
+		9D722AC820CC1E6600F03658 /* PaperForeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AB620CC1E6600F03658 /* PaperForeView.m */; };
+		BEFA1012B1CDF3D1E699A063 /* libPods-PaperStation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD036470A03BC9462157ABC2 /* libPods-PaperStation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A3DA18F5B24A002E80F6E8 /* Pods-PaperStation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperStation.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaperStation/Pods-PaperStation.release.xcconfig"; sourceTree = "<group>"; };
+		9D722A7320CC1CDC00F03658 /* PaperStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D722A7620CC1CDC00F03658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D722A7720CC1CDC00F03658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D722A7D20CC1CDC00F03658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D722A7F20CC1CDC00F03658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D722A8220CC1CDC00F03658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D722A8420CC1CDC00F03658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D722A8520CC1CDC00F03658 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D722A8D20CC1E6500F03658 /* HSFolderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFolderCell.h; sourceTree = "<group>"; };
+		9D722A8E20CC1E6500F03658 /* HSFolderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFolderCell.m; sourceTree = "<group>"; };
+		9D722A8F20CC1E6500F03658 /* HSRotatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSRotatedView.h; sourceTree = "<group>"; };
+		9D722A9020CC1E6500F03658 /* HSRotatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSRotatedView.m; sourceTree = "<group>"; };
+		9D722A9120CC1E6500F03658 /* UIView+SnapShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SnapShot.h"; sourceTree = "<group>"; };
+		9D722A9220CC1E6500F03658 /* UIView+SnapShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SnapShot.m"; sourceTree = "<group>"; };
+		9D722A9320CC1E6500F03658 /* SystemSet.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSet.pch; sourceTree = "<group>"; };
+		9D722A9520CC1E6600F03658 /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		9D722A9620CC1E6600F03658 /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		9D722A9720CC1E6600F03658 /* MenuTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTabBarController.h; sourceTree = "<group>"; };
+		9D722A9820CC1E6600F03658 /* MenuTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTabBarController.m; sourceTree = "<group>"; };
+		9D722A9A20CC1E6600F03658 /* DraftVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraftVC.h; sourceTree = "<group>"; };
+		9D722A9B20CC1E6600F03658 /* DraftVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraftVC.m; sourceTree = "<group>"; };
+		9D722A9C20CC1E6600F03658 /* GetPaperVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPaperVC.h; sourceTree = "<group>"; };
+		9D722A9D20CC1E6600F03658 /* GetPaperVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPaperVC.m; sourceTree = "<group>"; };
+		9D722A9E20CC1E6600F03658 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		9D722A9F20CC1E6600F03658 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		9D722AA020CC1E6600F03658 /* PaperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperViewController.h; sourceTree = "<group>"; };
+		9D722AA120CC1E6600F03658 /* PaperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperViewController.m; sourceTree = "<group>"; };
+		9D722AA220CC1E6600F03658 /* PostPaperVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostPaperVC.h; sourceTree = "<group>"; };
+		9D722AA320CC1E6600F03658 /* PostPaperVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostPaperVC.m; sourceTree = "<group>"; };
+		9D722AA420CC1E6600F03658 /* WritePaperVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WritePaperVC.h; sourceTree = "<group>"; };
+		9D722AA520CC1E6600F03658 /* WritePaperVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WritePaperVC.m; sourceTree = "<group>"; };
+		9D722AA820CC1E6600F03658 /* AnimateAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateAuthor.h; sourceTree = "<group>"; };
+		9D722AA920CC1E6600F03658 /* AnimateAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateAuthor.m; sourceTree = "<group>"; };
+		9D722AAC20CC1E6600F03658 /* PageCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCollectionCell.h; sourceTree = "<group>"; };
+		9D722AAD20CC1E6600F03658 /* PageCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageCollectionCell.m; sourceTree = "<group>"; };
+		9D722AAE20CC1E6600F03658 /* PageTopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageTopBarView.h; sourceTree = "<group>"; };
+		9D722AAF20CC1E6600F03658 /* PageTopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTopBarView.m; sourceTree = "<group>"; };
+		9D722AB120CC1E6600F03658 /* PaperContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperContentView.h; sourceTree = "<group>"; };
+		9D722AB220CC1E6600F03658 /* PaperContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperContentView.m; sourceTree = "<group>"; };
+		9D722AB320CC1E6600F03658 /* PaperFoldingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperFoldingCell.h; sourceTree = "<group>"; };
+		9D722AB420CC1E6600F03658 /* PaperFoldingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperFoldingCell.m; sourceTree = "<group>"; };
+		9D722AB520CC1E6600F03658 /* PaperForeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperForeView.h; sourceTree = "<group>"; };
+		9D722AB620CC1E6600F03658 /* PaperForeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperForeView.m; sourceTree = "<group>"; };
+		E3E7B3713BE3A429686C6DD7 /* Pods-PaperStation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperStation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaperStation/Pods-PaperStation.debug.xcconfig"; sourceTree = "<group>"; };
+		FD036470A03BC9462157ABC2 /* libPods-PaperStation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaperStation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D722A7020CC1CDC00F03658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFA1012B1CDF3D1E699A063 /* libPods-PaperStation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D722A6A20CC1CDB00F03658 = {
+			isa = PBXGroup;
+			children = (
+				9D722A7520CC1CDC00F03658 /* PaperStation */,
+				9D722A7420CC1CDC00F03658 /* Products */,
+				C8B8E5788FFC69E649BE521F /* Pods */,
+				A391B9F60214FD2A864D9C37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D722A7420CC1CDC00F03658 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D722A7320CC1CDC00F03658 /* PaperStation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D722A7520CC1CDC00F03658 /* PaperStation */ = {
+			isa = PBXGroup;
+			children = (
+				9D722AC920CC1E7C00F03658 /* AppDelegate */,
+				9D722AB020CC1E6600F03658 /* Fold */,
+				9D722A8C20CC1E6500F03658 /* HSFolderCell */,
+				9D722A9420CC1E6600F03658 /* Tabbar */,
+				9D722AA620CC1E6600F03658 /* TopBar */,
+				9D722A9920CC1E6600F03658 /* viewcontrollers */,
+				9D722A7C20CC1CDC00F03658 /* Main.storyboard */,
+				9D722A7F20CC1CDC00F03658 /* Assets.xcassets */,
+				9D722A8120CC1CDC00F03658 /* LaunchScreen.storyboard */,
+				9D722A8420CC1CDC00F03658 /* Info.plist */,
+				9D722A9320CC1E6500F03658 /* SystemSet.pch */,
+				9D722A8520CC1CDC00F03658 /* main.m */,
+			);
+			path = PaperStation;
+			sourceTree = "<group>";
+		};
+		9D722A8C20CC1E6500F03658 /* HSFolderCell */ = {
+			isa = PBXGroup;
+			children = (
+				9D722A8D20CC1E6500F03658 /* HSFolderCell.h */,
+				9D722A8E20CC1E6500F03658 /* HSFolderCell.m */,
+				9D722A8F20CC1E6500F03658 /* HSRotatedView.h */,
+				9D722A9020CC1E6500F03658 /* HSRotatedView.m */,
+				9D722A9120CC1E6500F03658 /* UIView+SnapShot.h */,
+				9D722A9220CC1E6500F03658 /* UIView+SnapShot.m */,
+			);
+			path = HSFolderCell;
+			sourceTree = "<group>";
+		};
+		9D722A9420CC1E6600F03658 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				9D722A9720CC1E6600F03658 /* MenuTabBarController.h */,
+				9D722A9820CC1E6600F03658 /* MenuTabBarController.m */,
+				9D722A9520CC1E6600F03658 /* CustomTabBar.h */,
+				9D722A9620CC1E6600F03658 /* CustomTabBar.m */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		9D722A9920CC1E6600F03658 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				9D722AA020CC1E6600F03658 /* PaperViewController.h */,
+				9D722AA120CC1E6600F03658 /* PaperViewController.m */,
+				9D722A9C20CC1E6600F03658 /* GetPaperVC.h */,
+				9D722A9D20CC1E6600F03658 /* GetPaperVC.m */,
+				9D722AA220CC1E6600F03658 /* PostPaperVC.h */,
+				9D722AA320CC1E6600F03658 /* PostPaperVC.m */,
+				9D722A9A20CC1E6600F03658 /* DraftVC.h */,
+				9D722A9B20CC1E6600F03658 /* DraftVC.m */,
+				9D722AA420CC1E6600F03658 /* WritePaperVC.h */,
+				9D722AA520CC1E6600F03658 /* WritePaperVC.m */,
+				9D722A9E20CC1E6600F03658 /* MineViewController.h */,
+				9D722A9F20CC1E6600F03658 /* MineViewController.m */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		9D722AA620CC1E6600F03658 /* TopBar */ = {
+			isa = PBXGroup;
+			children = (
+				9D722AA720CC1E6600F03658 /* Author */,
+				9D722AAE20CC1E6600F03658 /* PageTopBarView.h */,
+				9D722AAF20CC1E6600F03658 /* PageTopBarView.m */,
+				9D722AAC20CC1E6600F03658 /* PageCollectionCell.h */,
+				9D722AAD20CC1E6600F03658 /* PageCollectionCell.m */,
+			);
+			path = TopBar;
+			sourceTree = "<group>";
+		};
+		9D722AA720CC1E6600F03658 /* Author */ = {
+			isa = PBXGroup;
+			children = (
+				9D722AA820CC1E6600F03658 /* AnimateAuthor.h */,
+				9D722AA920CC1E6600F03658 /* AnimateAuthor.m */,
+			);
+			path = Author;
+			sourceTree = "<group>";
+		};
+		9D722AB020CC1E6600F03658 /* Fold */ = {
+			isa = PBXGroup;
+			children = (
+				9D722AB120CC1E6600F03658 /* PaperContentView.h */,
+				9D722AB220CC1E6600F03658 /* PaperContentView.m */,
+				9D722AB320CC1E6600F03658 /* PaperFoldingCell.h */,
+				9D722AB420CC1E6600F03658 /* PaperFoldingCell.m */,
+				9D722AB520CC1E6600F03658 /* PaperForeView.h */,
+				9D722AB620CC1E6600F03658 /* PaperForeView.m */,
+			);
+			path = Fold;
+			sourceTree = "<group>";
+		};
+		9D722AC920CC1E7C00F03658 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9D722A7620CC1CDC00F03658 /* AppDelegate.h */,
+				9D722A7720CC1CDC00F03658 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A391B9F60214FD2A864D9C37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD036470A03BC9462157ABC2 /* libPods-PaperStation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8B8E5788FFC69E649BE521F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3E7B3713BE3A429686C6DD7 /* Pods-PaperStation.debug.xcconfig */,
+				01A3DA18F5B24A002E80F6E8 /* Pods-PaperStation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D722A7220CC1CDC00F03658 /* PaperStation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D722A8920CC1CDC00F03658 /* Build configuration list for PBXNativeTarget "PaperStation" */;
+			buildPhases = (
+				EA7D7CB505306B253B1A6D94 /* [CP] Check Pods Manifest.lock */,
+				9D722A6F20CC1CDC00F03658 /* Sources */,
+				9D722A7020CC1CDC00F03658 /* Frameworks */,
+				9D722A7120CC1CDC00F03658 /* Resources */,
+				29A2B1C4D25B0835FD2F4144 /* [CP] Embed Pods Frameworks */,
+				876F757B9FD056796D0D4A20 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaperStation;
+			productName = PaperStation;
+			productReference = 9D722A7320CC1CDC00F03658 /* PaperStation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D722A6B20CC1CDB00F03658 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = tybbt;
+				TargetAttributes = {
+					9D722A7220CC1CDC00F03658 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9D722A6E20CC1CDB00F03658 /* Build configuration list for PBXProject "PaperStation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D722A6A20CC1CDB00F03658;
+			productRefGroup = 9D722A7420CC1CDC00F03658 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D722A7220CC1CDC00F03658 /* PaperStation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D722A7120CC1CDC00F03658 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D722A8320CC1CDC00F03658 /* LaunchScreen.storyboard in Resources */,
+				9D722A8020CC1CDC00F03658 /* Assets.xcassets in Resources */,
+				9D722A7E20CC1CDC00F03658 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29A2B1C4D25B0835FD2F4144 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaperStation/Pods-PaperStation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		876F757B9FD056796D0D4A20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaperStation/Pods-PaperStation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7D7CB505306B253B1A6D94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaperStation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D722A6F20CC1CDC00F03658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D722A8620CC1CDC00F03658 /* main.m in Sources */,
+				9D722ABB20CC1E6600F03658 /* MenuTabBarController.m in Sources */,
+				9D722AB720CC1E6600F03658 /* HSFolderCell.m in Sources */,
+				9D722AC720CC1E6600F03658 /* PaperFoldingCell.m in Sources */,
+				9D722AC520CC1E6600F03658 /* PageTopBarView.m in Sources */,
+				9D722ABD20CC1E6600F03658 /* GetPaperVC.m in Sources */,
+				9D722ABA20CC1E6600F03658 /* CustomTabBar.m in Sources */,
+				9D722AB920CC1E6600F03658 /* UIView+SnapShot.m in Sources */,
+				9D722AC620CC1E6600F03658 /* PaperContentView.m in Sources */,
+				9D722AC820CC1E6600F03658 /* PaperForeView.m in Sources */,
+				9D722A7820CC1CDC00F03658 /* AppDelegate.m in Sources */,
+				9D722ABF20CC1E6600F03658 /* PaperViewController.m in Sources */,
+				9D722AC420CC1E6600F03658 /* PageCollectionCell.m in Sources */,
+				9D722ABE20CC1E6600F03658 /* MineViewController.m in Sources */,
+				9D722ABC20CC1E6600F03658 /* DraftVC.m in Sources */,
+				9D722AC120CC1E6600F03658 /* WritePaperVC.m in Sources */,
+				9D722AB820CC1E6600F03658 /* HSRotatedView.m in Sources */,
+				9D722AC220CC1E6600F03658 /* AnimateAuthor.m in Sources */,
+				9D722AC020CC1E6600F03658 /* PostPaperVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9D722A7C20CC1CDC00F03658 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D722A7D20CC1CDC00F03658 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D722A8120CC1CDC00F03658 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D722A8220CC1CDC00F03658 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D722A8720CC1CDC00F03658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D722A8820CC1CDC00F03658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D722A8A20CC1CDC00F03658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3E7B3713BE3A429686C6DD7 /* Pods-PaperStation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B28Y2E968K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PaperStation/SystemSet.pch";
+				INFOPLIST_FILE = PaperStation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tybbt.PaperStation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D722A8B20CC1CDC00F03658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A3DA18F5B24A002E80F6E8 /* Pods-PaperStation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B28Y2E968K;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PaperStation/SystemSet.pch";
+				INFOPLIST_FILE = PaperStation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tybbt.PaperStation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D722A6E20CC1CDB00F03658 /* Build configuration list for PBXProject "PaperStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D722A8720CC1CDC00F03658 /* Debug */,
+				9D722A8820CC1CDC00F03658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D722A8920CC1CDC00F03658 /* Build configuration list for PBXNativeTarget "PaperStation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D722A8A20CC1CDC00F03658 /* Debug */,
+				9D722A8B20CC1CDC00F03658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D722A6B20CC1CDB00F03658 /* Project object */;
+}
