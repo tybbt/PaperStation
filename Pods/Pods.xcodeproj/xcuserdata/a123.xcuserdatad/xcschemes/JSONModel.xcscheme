@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BE74321DB6285353492D443170356AAC"
-               BlueprintName = "Pods-PaperStation"
+               BlueprintIdentifier = "21CB3E64059981A1FFFE60ACF5AD287E"
+               BlueprintName = "JSONModel"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-PaperStation.a">
+               BuildableName = "libJSONModel.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

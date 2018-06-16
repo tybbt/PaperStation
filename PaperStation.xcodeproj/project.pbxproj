@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9D5D16D020CFBADA001A5184 /* PaperContentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D16CF20CFBADA001A5184 /* PaperContentTitleView.m */; };
+		9D5D16DB20D0B7B4001A5184 /* PaperMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D16DA20D0B7B4001A5184 /* PaperMessageModel.m */; };
 		9D722A7820CC1CDC00F03658 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722A7720CC1CDC00F03658 /* AppDelegate.m */; };
 		9D722A7E20CC1CDC00F03658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D722A7C20CC1CDC00F03658 /* Main.storyboard */; };
 		9D722A8020CC1CDC00F03658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D722A7F20CC1CDC00F03658 /* Assets.xcassets */; };
@@ -37,6 +38,8 @@
 		01A3DA18F5B24A002E80F6E8 /* Pods-PaperStation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperStation.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaperStation/Pods-PaperStation.release.xcconfig"; sourceTree = "<group>"; };
 		9D5D16CE20CFBADA001A5184 /* PaperContentTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperContentTitleView.h; sourceTree = "<group>"; };
 		9D5D16CF20CFBADA001A5184 /* PaperContentTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperContentTitleView.m; sourceTree = "<group>"; };
+		9D5D16D920D0B7B4001A5184 /* PaperMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaperMessageModel.h; sourceTree = "<group>"; };
+		9D5D16DA20D0B7B4001A5184 /* PaperMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperMessageModel.m; sourceTree = "<group>"; };
 		9D722A7320CC1CDC00F03658 /* PaperStation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperStation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D722A7620CC1CDC00F03658 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D722A7720CC1CDC00F03658 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D5D16D120D0B3F7001A5184 /* paperModel */ = {
+			isa = PBXGroup;
+			children = (
+				9D5D16D920D0B7B4001A5184 /* PaperMessageModel.h */,
+				9D5D16DA20D0B7B4001A5184 /* PaperMessageModel.m */,
+			);
+			path = paperModel;
+			sourceTree = "<group>";
+		};
 		9D722A6A20CC1CDB00F03658 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +129,7 @@
 		9D722A7520CC1CDC00F03658 /* PaperStation */ = {
 			isa = PBXGroup;
 			children = (
+				9D5D16D120D0B3F7001A5184 /* paperModel */,
 				9D722AC920CC1E7C00F03658 /* AppDelegate */,
 				9D722AB020CC1E6600F03658 /* Fold */,
 				9D722A8C20CC1E6500F03658 /* HSFolderCell */,
@@ -377,6 +390,7 @@
 				9D722A7820CC1CDC00F03658 /* AppDelegate.m in Sources */,
 				9D722ABF20CC1E6600F03658 /* PaperViewController.m in Sources */,
 				9D722AC420CC1E6600F03658 /* PageCollectionCell.m in Sources */,
+				9D5D16DB20D0B7B4001A5184 /* PaperMessageModel.m in Sources */,
 				9D722ABE20CC1E6600F03658 /* MineViewController.m in Sources */,
 				9D722ABC20CC1E6600F03658 /* DraftVC.m in Sources */,
 				9D722AC120CC1E6600F03658 /* WritePaperVC.m in Sources */,
