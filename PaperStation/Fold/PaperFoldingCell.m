@@ -108,7 +108,7 @@
 - (PaperForeView *)foreView
 {
     if (!_foreView) {
-        <#statements#>
+        
     }
     return _foreView;
 }
@@ -116,7 +116,7 @@
 - (PaperContentTitleView *)contentTitleView
 {
     if (!_contentTitleView) {
-        <#statements#>
+        
     }
     return _contentTitleView;
 }
@@ -124,7 +124,7 @@
 - (PaperContentView *)contentDetailView
 {
     if (!_contentDetailView) {
-        <#statements#>
+        
     }
     return _contentDetailView;
 }

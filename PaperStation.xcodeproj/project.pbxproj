@@ -31,6 +31,8 @@
 		9D722AC620CC1E6600F03658 /* PaperContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AB220CC1E6600F03658 /* PaperContentView.m */; };
 		9D722AC720CC1E6600F03658 /* PaperFoldingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AB420CC1E6600F03658 /* PaperFoldingCell.m */; };
 		9D722AC820CC1E6600F03658 /* PaperForeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D722AB620CC1E6600F03658 /* PaperForeView.m */; };
+		9DD7900B20FB0F7000E8D131 /* UserSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7900A20FB0F7000E8D131 /* UserSetView.m */; };
+		9DD7900E20FB102700E8D131 /* UserSetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7900D20FB102700E8D131 /* UserSetCell.m */; };
 		BEFA1012B1CDF3D1E699A063 /* libPods-PaperStation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD036470A03BC9462157ABC2 /* libPods-PaperStation.a */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +85,10 @@
 		9D722AB420CC1E6600F03658 /* PaperFoldingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperFoldingCell.m; sourceTree = "<group>"; };
 		9D722AB520CC1E6600F03658 /* PaperForeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperForeView.h; sourceTree = "<group>"; };
 		9D722AB620CC1E6600F03658 /* PaperForeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperForeView.m; sourceTree = "<group>"; };
+		9DD7900920FB0F7000E8D131 /* UserSetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSetView.h; sourceTree = "<group>"; };
+		9DD7900A20FB0F7000E8D131 /* UserSetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserSetView.m; sourceTree = "<group>"; };
+		9DD7900C20FB102700E8D131 /* UserSetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSetCell.h; sourceTree = "<group>"; };
+		9DD7900D20FB102700E8D131 /* UserSetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserSetCell.m; sourceTree = "<group>"; };
 		E3E7B3713BE3A429686C6DD7 /* Pods-PaperStation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaperStation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaperStation/Pods-PaperStation.debug.xcconfig"; sourceTree = "<group>"; };
 		FD036470A03BC9462157ABC2 /* libPods-PaperStation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaperStation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -129,6 +135,7 @@
 		9D722A7520CC1CDC00F03658 /* PaperStation */ = {
 			isa = PBXGroup;
 			children = (
+				9DD7900820FB0F3B00E8D131 /* UserSetView */,
 				9D5D16D120D0B3F7001A5184 /* paperModel */,
 				9D722AC920CC1E7C00F03658 /* AppDelegate */,
 				9D722AB020CC1E6600F03658 /* Fold */,
@@ -232,6 +239,17 @@
 				9D722A7720CC1CDC00F03658 /* AppDelegate.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9DD7900820FB0F3B00E8D131 /* UserSetView */ = {
+			isa = PBXGroup;
+			children = (
+				9DD7900920FB0F7000E8D131 /* UserSetView.h */,
+				9DD7900A20FB0F7000E8D131 /* UserSetView.m */,
+				9DD7900C20FB102700E8D131 /* UserSetCell.h */,
+				9DD7900D20FB102700E8D131 /* UserSetCell.m */,
+			);
+			path = UserSetView;
 			sourceTree = "<group>";
 		};
 		A391B9F60214FD2A864D9C37 /* Frameworks */ = {
@@ -384,10 +402,12 @@
 				9D722AC520CC1E6600F03658 /* PageTopBarView.m in Sources */,
 				9D722ABD20CC1E6600F03658 /* GetPaperVC.m in Sources */,
 				9D722ABA20CC1E6600F03658 /* CustomTabBar.m in Sources */,
+				9DD7900B20FB0F7000E8D131 /* UserSetView.m in Sources */,
 				9D722AB920CC1E6600F03658 /* UIView+SnapShot.m in Sources */,
 				9D722AC620CC1E6600F03658 /* PaperContentView.m in Sources */,
 				9D722AC820CC1E6600F03658 /* PaperForeView.m in Sources */,
 				9D722A7820CC1CDC00F03658 /* AppDelegate.m in Sources */,
+				9DD7900E20FB102700E8D131 /* UserSetCell.m in Sources */,
 				9D722ABF20CC1E6600F03658 /* PaperViewController.m in Sources */,
 				9D722AC420CC1E6600F03658 /* PageCollectionCell.m in Sources */,
 				9D5D16DB20D0B7B4001A5184 /* PaperMessageModel.m in Sources */,

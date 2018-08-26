@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3693A64161E2B3D82592AA6C7D01B72F"
-               BlueprintName = "Pods-PaperStation"
+               BlueprintIdentifier = "F3B1490ADFF2E0A5A13B4C445576BB03"
+               BlueprintName = "FMDB"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-PaperStation.a">
+               BuildableName = "libFMDB.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

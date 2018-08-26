@@ -12,7 +12,7 @@
 #import "DraftVC.h"
 #import "PageTopBarView.h"
 
-@interface PaperViewController ()<UIPageViewControllerDataSource,UIPageViewControllerDelegate,PageTopBarViewDelegate>
+@interface PaperViewController ()<UIPageViewControllerDataSource,UIPageViewControllerDelegate,PageTopBarViewDelegate,UIScrollViewDelegate>
 
 @property (nonatomic, strong) PageTopBarView * topbarView;
 @property (nonatomic, strong) UIPageViewController * pageController;
@@ -20,7 +20,7 @@
 @property (nonatomic, copy) NSArray<UIViewController *> * childPageViewController;
 @property (nonatomic, assign) NSInteger currentIdx;
 
-@property (nonatomic, strong) UITableView * tableview;
+@property (nonatomic, strong) UIScrollView * scrollView;
 @end
 
 @implementation PaperViewController
@@ -56,6 +56,7 @@
     [self.pageController didMoveToParentViewController:self];
     [self.view addSubview:self.pageController.view];
     [self.view addSubview:self.topbarView];
+    self.scrollView.delegate = self;
 }
 
 - (PageTopBarView *)topbarView
@@ -81,6 +82,19 @@
         [_pageController setViewControllers:@[vc] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
     }
     return _pageController;
+}
+
+
+- (UIScrollView *)scrollView
+{
+    if (!_scrollView) {
+        for (id obj in _pageController.view.subviews) {
+            if ([obj isKindOfClass:[UIScrollView class]]) {
+                _scrollView = obj;
+            }
+        }
+    }
+    return _scrollView;
 }
 
 - (NSArray<UIViewController *> *)childPageViewController
@@ -130,7 +144,7 @@
 }
 
 #pragma mark -PageTopBarViewDelegate
--(void)clickViewControllerNameAtIndex:(NSInteger)index
+- (void)clickViewControllerNameAtIndex:(NSInteger)index
 {
     if (index > self.currentIdx) {
         UIViewController * vc = self.childPageViewController[index];
@@ -143,6 +157,17 @@
     }
     self.currentIdx = index;
 }
+
+#
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    CGFloat offsetX = scrollView.contentOffset.x;
+    CGFloat currentOffset = offsetX - ScreenWidth;
+    CGFloat x = fabs(currentOffset/ScreenWidth);
+    NSLog(@"4 point num - %.4f",x);
+
+   
+}
+
 
 
 
